@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Free Anime</title>
+  <meta name="description" content="Free Anime - anime ki duniya ek jagah">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: Arial, sans-serif;
+      background: #0f0f1a;
+      color: #eee;
+      line-height: 1.6;
+    }
+    header {
+      background: #1a1a2e;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 3px solid #e94560;
+    }
+    header h1 { color: #e94560; font-size: 2.2rem; }
+    nav { margin-top: 10px; }
+    nav a {
+      color: #eee;
+      text-decoration: none;
+      margin: 0 12px;
+      font-weight: bold;
+    }
+    nav a:hover { color: #e94560; }
+    .container { max-width: 1000px; margin: auto; padding: 20px; }
+    .hero {
+      text-align: center;
+      padding: 40px 10px;
+    }
+    .hero h2 { font-size: 1.8rem; margin-bottom: 10px; }
+    .hero p { color: #aaa; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .card {
+      background: #1a1a2e;
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.2s;
+    }
+    .card:hover { transform: translateY(-5px); }
+    .card .emoji { font-size: 3rem; }
+    .card h3 { margin: 10px 0 5px; color: #e94560; }
+    .card p { color: #bbb; font-size: 0.9rem; }
+    .ad-slot {
+      margin: 30px auto;
+      min-height: 90px;
+      background: #1a1a2e;
+      border: 1px dashed #555;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #666;
+      font-size: 0.9rem;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #1a1a2e;
+      color: #888;
+      margin-top: 40px;
+    }
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.6rem; }
+      .hero h2 { font-size: 1.4rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Free Anime</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#popular">Popular</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+
+    <section class="hero" id="home">
+      <h2>Welcome to Free Anime</h2>
+      <p>Apne favourite anime ki duniya mein swagat hai.</p>
+    </section>
+
+    <!-- Ad slot: baad mein yahan ads lagayenge -->
+    <div class="ad-slot">Ad Space</div>
+
+    <section id="popular">
+      <h2 style="text-align:center; margin-top:30px;">Popular Genres</h2>
+      <div class="grid">
+        <div class="card">
+          <div class="emoji">⚔️</div>
+          <h3>Action</h3>
+          <p>Josh aur fight se bhara content.</p>
+        </div>
+        <div class="card">
+          <div class="emoji">💖</div>
+          <h3>Romance</h3>
+          <p>Dil ko chhu lene wali kahaniyan.</p>
+        </div>
+        <div class="card">
+          <div class="emoji">😂</div>
+          <h3>Comedy</h3>
+          <p>Hasi se bharpoor anime.</p>
+        </div>
+        <div class="card">
+          <div class="emoji">👻</div>
+          <h3>Horror</h3>
+          <p>Dar ke saath roll-coaster.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" style="margin-top:50px;">
+      <h2>About</h2>
+      <p style="color:#bbb; margin-top:10px;">
+        Free Anime ek simple website hai jahan anime lovers ko apni pasand ki jankari mil sake.
+      </p>
+    </section>
+
+    <section id="contact" style="margin-top:50px;">
+      <h2>Contact</h2>
+      <p style="color:#bbb; margin-top:10px;">
+        Email: your-email@example.com
+      </p>
+    </section>
+
+  </div>
+
+  <footer>
+    <p>&copy; 2026 Free Anime. Sab rights reserved.</p>
+  </footer>
+
+</body>
+</html>
